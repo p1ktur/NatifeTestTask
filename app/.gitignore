@@ -1,1 +1,5 @@
 /build
+/feature_gifs/src/androidTest/java/com/task/feature_gifs/ExampleInstrumentedTest.kt
+/src/androidTest/java/com/task/app/ExampleInstrumentedTest.kt
+/feature_gifs/src/test/java/com/task/feature_gifs/ExampleUnitTest.kt
+/src/test/java/com/task/app/ExampleUnitTest.kt

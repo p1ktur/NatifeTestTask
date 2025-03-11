@@ -15,6 +15,9 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
+
+        buildConfigField("String", "GIPHY_API_URL", "\"api.giphy.com/v1/gifs\"")
+        buildConfigField("String", "GIPHY_API_KEY", "\"STCjowKq163Sso4xqszVJJcOqndkVvwi\"")
     }
 
     buildTypes {
@@ -35,6 +38,7 @@ android {
     }
     buildFeatures {
         compose = true
+        buildConfig = true
     }
 }
 
